@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.loginpage{
+    height: 120vh;
+    width: 100%;
+    background:rgb(139,198,236);
+    display: flex;
+    justify-content: center;
+    font-family: montserrat,sans-serif;
+}
+.card1{
+    margin-top: 100px;
+    width: 450px;
+    height: 600px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    line-height: 25px;
+    box-shadow: 0px 3px 39px -12px rgba(36,36,36,0.78);
+-webkit-box-shadow: 0px 3px 39px -12px rgba(36,36,36,0.78);
+-moz-box-shadow: 0px 3px 39px -12px rgba(36,36,36,0.78);
+}
+.card2{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: 600px;
+    border: 1px solid #4835d4;
+    background-color: #4835d4;
+    border-radius: 15px;
+    line-height: 25px;
+    box-shadow: 0px 3px 39px -12px rgba(36,36,36,0.78);
+    -webkit-box-shadow: 0px 3px 39px -12px rgba(36,36,36,0.78);
+    -moz-box-shadow: 0px 3px 39px -12px rgba(36,36,36,0.78);
+}
+.card1 h2{
+    margin: 30px 30px;
+    text-align: start;
+    font-weight: bold;
+    font-size: 25px;
+    color: #2271dd;
+}
+.card2 h2{
+    margin: 30px 30px;
+    text-align: start;
+    font-size: 25px;
+    color: white;
+}
+.card1 ::placeholder{
+   color:#666666; 
+}
+.card2 ::placeholder{
+    color: #fff;
+}
+.card1 input{
+   display: block;
+   width: 80%;
+   height: 35px;
+    margin: 15px auto;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(168, 168, 168);
+
+}
+.card1 .name .text1{
+    width: 195px; 
+    margin-right: -40px;
+}
+.card1 .name .text2{
+    width: 150px;
+    margin-left: 50px;
+}
+.card2 .near .zipcode{
+    width: 110px;
+    margin-left: 57px;
+ text-align: start;
+}
+.card2 .near .place{
+    width: 195px;
+    margin-right: 60px;
+    text-align: start;
+ 
+}
+.card2 .near2 .code{
+    width: 110px;
+    margin-left: 57px;
+ text-align: start;
+}
+.card2 .near2 .phone-number{
+    width: 195px;
+    margin-right: 60px;
+    text-align: start;
+ 
+}
+.card1 select{
+    display: block;
+    width: 80%;
+    height: 35px;
+    margin: 15px auto;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(168, 168, 168);
+    cursor: pointer;
+    color:#666666 ; 
+}
+.card2 input{
+   display: block;
+    width: 75%;
+    height: 30px;
+    background-color:#4835d4;
+    color: white;
+  
+     margin: 15px auto;
+     border: none;
+     outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+ }
+ .card2 select{
+    display: block;
+    cursor: pointer;
+    width: 75%;
+    height: 30px;
+    font-size: 12px;
+    margin: 15px auto;
+    background-color: #4835d4;
+    border: none;
+    color:white;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+ button{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin: 16px 30px 60px 145px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: montserrat,sans-serif;
+    background-color: white;
+  
+ }
+
+ .near{
+    display: flex;
+    flex-direction: row;
+ }
+ .near2{
+    display: flex;
+    flex-direction: row;
+ }
+ .name{
+    display: flex;
+    flex-direction: row;
+ }
+ .end{
+    position: relative;
+ }
+   .card2 .end input {
+    position: absolute;
+    top: 1px;
+    left: 60px;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #4835d4 ;
+    cursor: pointer;
+    }
+   label{
+    position: relative;
+    font-size: 13px;
+    color: white;
+    margin-left:90px ;
+    line-height: 50px;
+   }
+label a{
+    color: white;
+}
